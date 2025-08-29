@@ -181,6 +181,45 @@ main > section > .films-container > .lead > p {
   margin-block: 0px;
   font-size: 32px;
 }
+/* Books Page */
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  /* margin-top: 150px; */
+  margin-inline: 150px;
+}
+.books-container > .photo {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.books-container > .photo:hover {
+  border: 2px solid #6c5b7c;
+  transform: scale(1.1);
+}
+
+.books-container > .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.books-lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* color: #f67280; */
+  color: coral;
+  margin-block-start: 150px;
+  margin-block-end: 35px;
+}
+.books-lead > p {
+  margin-block: 0px;
+  font-size: 32px;
+}
 /* Downloads Page */
 .downloads-container {
   margin-inline-start: 50px;
