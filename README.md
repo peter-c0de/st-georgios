@@ -12,5 +12,5 @@ https://www.shecodes.io/palettes/187#palette
 ### Version #1
 Date: 29 August, 2025
 
-
+### Current Version: v2
 
