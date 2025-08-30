@@ -35,10 +35,19 @@ nav {
   left: 0;
   width: 100%;
 }
-nav > h1 {
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+nav > div > h1 {
+  display: inline-block;
   font-family: "Lalezar-Regular";
   color: white;
   font-size: 32px;
+}
+nav > div > img {
+  width: 49px;
 }
 nav > ul {
   list-style-type: none;
